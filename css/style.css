@@ -1,0 +1,150 @@
+/* General page styling */
+
+/* Main page background override */
+body.home-page {
+  background-image: url("../images/backgroun4.jpeg");
+}
+
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fffaf0; /* fallback color if image doesn't load */
+  background-image: url("../images/test3.jpeg"); /* replace with your image path */
+  background-repeat: no-repeat;       /* prevent tiling */
+  background-size: cover;             /* cover entire viewport */
+  background-position: center center; /* center the image */
+  background-attachment: fixed;       /* optional: image stays while scrolling */
+  
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center everything horizontally */
+}
+
+
+/* Header styling */
+header {
+  width: 100%;
+  text-align: center;       /* centers text inside header */
+  margin: 0;
+  padding: 40px 20px 20px 20px; /* extra top padding for "cover page" feel */
+  display: flex;
+  flex-direction: column;   /* stack image and text vertically */
+  align-items: center;      /* center all children horizontally */
+}
+
+/* Header image styling */
+header img {
+  display: block;
+  margin: 0 auto 20px;      /* centers image horizontally */
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Header title */
+header h1 {
+  font-size: 7em;
+  margin-bottom: 15px;
+  text-align: center;       /* ensures title is centered */
+  width: 100%;              /* ensures it spans the header container */
+}
+
+/* Header paragraph */
+header p {
+  max-width: 600px;         /* limits line width */
+  margin: 0 auto;           /* centers paragraph */
+  font-size: 1.5em;
+  line-height: 1.8;
+  text-align: center;       /* ensures paragraph is centered */
+  font-weight: bold;
+  font-family: 'Franklin Gothic', serif;
+}
+
+/* Main content text */
+main {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+/* Chapter links (if present) */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6b3e26;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  color: #555;
+  width: 100%;
+}
+
+
+.cast-page {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.cast-page section {
+  margin-bottom: 40px;
+}
+
+.cast-page h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cast-page h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #6b3e26;
+  font-size: 1.2em;
+}
+
+.cast-page p {
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+
+.cast-page ul {
+  padding-left: 20px;
+}
+
+.cast-page li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
